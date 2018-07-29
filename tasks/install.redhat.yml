@@ -17,6 +17,7 @@
   with_items: "{{ mongodb_version[0:3] }}"
   when: mongodb_package == 'mongodb-org'
 
+
 - name: Install MongoDB package
   yum:
     name: "{{ item }}"
