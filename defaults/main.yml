@@ -71,32 +71,33 @@ mongodb_mms_base_url: https://mms.mongodb.com
 # password for inter-process authentication
 # please regenerate this file on production environment with command 'openssl rand -base64 741'
 mongodb_keyfile_content: |
-  8pYcxvCqoe89kcp33KuTtKVf5MoHGEFjTnudrq5BosvWRoIxLowmdjrmUpVfAivh
-  CHjqM6w0zVBytAxH1lW+7teMYe6eDn2S/O/1YlRRiW57bWU3zjliW3VdguJar5i9
-  Z+1a8lI+0S9pWynbv9+Ao0aXFjSJYVxAm/w7DJbVRGcPhsPmExiSBDw8szfQ8PAU
-  2hwRl7nqPZZMMR+uQThg/zV9rOzHJmkqZtsO4UJSilG9euLCYrzW2hdoPuCrEDhu
-  Vsi5+nwAgYR9dP2oWkmGN1dwRe0ixSIM2UzFgpaXZaMOG6VztmFrlVXh8oFDRGM0
-  cGrFHcnGF7oUGfWnI2Cekngk64dHA2qD7WxXPbQ/svn9EfTY5aPw5lXzKA87Ds8p
-  KHVFUYvmA6wVsxb/riGLwc+XZlb6M9gqHn1XSpsnYRjF6UzfRcRR2WyCxLZELaqu
-  iKxLKB5FYqMBH7Sqg3qBCtE53vZ7T1nefq5RFzmykviYP63Uhu/A2EQatrMnaFPl
-  TTG5CaPjob45CBSyMrheYRWKqxdWN93BTgiTW7p0U6RB0/OCUbsVX6IG3I9N8Uqt
-  l8Kc+7aOmtUqFkwo8w30prIOjStMrokxNsuK9KTUiPu2cj7gwYQ574vV3hQvQPAr
-  hhb9ohKr0zoPQt31iTj0FDkJzPepeuzqeq8F51HB56RZKpXdRTfY8G6OaOT68cV5
-  vP1O6T/okFKrl41FQ3CyYN5eRHyRTK99zTytrjoP2EbtIZ18z+bg/angRHYNzbgk
-  lc3jpiGzs1ZWHD0nxOmHCMhU4usEcFbV6FlOxzlwrsEhHkeiununlCsNHatiDgzp
-  ZWLnP/mXKV992/Jhu0Z577DHlh+3JIYx0PceB9yzACJ8MNARHF7QpBkhtuGMGZpF
-  T+c73exupZFxItXs1Bnhe3djgE3MKKyYvxNUIbcTJoe7nhVMrwO/7lBSpVLvC4p3
-  wR700U0LDaGGQpslGtiE56SemgoP
+  BWCMWxO+8XvVVUTjWtMRrx8FQhYOMQ1Azw9i0FotpYz3jSdy3nGzLzuxdKmsujQq
+  qWUgYGAV1ucGhBHHOqkaGQMfuSr4EzJXQC1IyTaziqJ+nJMVSVrBgpTn35sJxdk/
+  5utRt+2FNGgc+w6AxyIkWKtl4CCTLzxa+Gi1eOuZ5NY7dFPOraRXb5dUgT2DJNZr
+  lUa8uMFO4AfJPE+M6D5ZBjJkfhkqKWiyGx+zW6inLPHb9twM0GQqaKMmIRFaM67M
+  5b2wKR0JM/OeT2M+OcU8tR30wp9IG8uS6FSV0nT4yiM4lB0Xh/zWcvSTzH2K2212
+  EamsjbzF3OgUOYIrFbSceSpK0hmMTokCLjyEapos34OzOE2sOwGaDBckNRm8GgY6
+  ITl/huaOap0rDopXEpPafLboiL5A9w+nW/jXMfSL9rtq+Q7PnaWqcYthz+F5amzh
+  qlBQIeuoeOYQq+8xeTO2xdONQC2k4HAb3hx4T9QKaASJ0DHK47Ljim/hU9cacD9B
+  IxHaRKHLoFcUz2vhv3X+tZtVMKgzNM/KnSCV4wQjIVBbZX3BkHNYQZ+cn0DezfG0
+  72AQKIvljQmy7fcWJZ+EHI3+nWA99L33MYRhlSJOTXinOCKAkdd9Dri8xv8CGTNr
+  ZmxB6PxD8yNuw7bvZTK+rf2361J20DV6xApfiNNUR0XE9Yv//+ryL12Q2Cj/hWS0
+  Wqdav8+wZJJQ6jwGEN3X11G/krenpvag9jugMtBthORU+efnW8/k1+HcHJ9CpwTF
+  tWLpbjwg0FHb+36r40RZcTZyi+7B56XSfEdOnYbElFcJEQDo8hYQJW/FNZjYwPPz
+  30OCWx/u/sbSC7OWxRpWPxV5RE9pwj+Me6B2saZoNW9ZWyhf0HacJnftL82bXdwA
+  9FNlw5WynZshdmWM5g+hp7uUnsqo6491sKVcJHgEAgDnYY/Y4Q0DNrde6R200CNj
+  bmJSnqtkSdSjtXF3+dxPcF2IlS90
+
 
 # names and passwords for administrative users
 mongodb_user_admin_name: siteUserAdmin
-mongodb_user_admin_password: passw0rd
+mongodb_user_admin_password: v3ry$3cret!
 
 mongodb_root_admin_name: siteRootAdmin
-mongodb_root_admin_password: passw0rd
+mongodb_root_admin_password: v3ry$3cret!
 
 mongodb_root_backup_name: backupuser
-mongodb_root_backup_password: passw0rd
+mongodb_root_backup_password: v3ry$3cret!
 
 # setParameter config
 mongodb_set_parameters:
